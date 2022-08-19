@@ -1,5 +1,5 @@
 {
-  "name": "test-gravity",
+  "name": "gravity-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.54.4",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +40,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@types/node-sass": "^4.11.3",
+    "node-sass": "^7.0.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

@@ -1,0 +1,40 @@
+$bg-color: #E7F6F2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  background-color: $bg-color;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80vw;
+  display: grid;
+  gap: 8em;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  div {
+    padding: 15px;
+  }
+}
